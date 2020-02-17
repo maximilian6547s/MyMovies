@@ -62,7 +62,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.main_menu, menu);
         return super.onCreateOptionsMenu(menu);
-
     }
 
     @Override
